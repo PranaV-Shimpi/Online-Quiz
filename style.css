@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -8,16 +9,19 @@ body {
   background-color: #f0f0f0;
 }
 
-.main-container{
+/* Main Container */
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  padding: 20px;
 }
 
-
+/* Quiz Container */
 #quiz-container {
-  width: 80%;
+  width: 100%;
   max-width: 1200px;
   background: white;
   padding: 20px;
@@ -25,34 +29,47 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   min-height: 90vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
+/* Question Container */
 #question-container {
+  width: 100%;
   margin-bottom: 20px;
 }
 
+/* Question Text */
 .question {
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
   margin-bottom: 10px;
+  text-align: left;
 }
 
+/* Options */
 .option {
+  width: 100%;
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 5px;
   border: 2px solid #ddd;
   cursor: pointer;
   transition: background-color 0.3s, border-color 0.3s;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
 
-.option input[type="checkbox"], .option input[type="radio"] {
+.option input[type="checkbox"],
+.option input[type="radio"] {
   margin-right: 10px;
 }
-.option.selected{
-background-color: lightcyan;
+
+.option.selected {
+  background-color: lightcyan;
 }
 
 .option.correct {
@@ -69,21 +86,63 @@ background-color: lightcyan;
   display: none;
 }
 
+/* Button */
 button {
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 1rem; /* 16px */
   background-color: #007bff;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:hover {
   background-color: #0056b3;
 }
 
+/* Result */
 #result {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .question {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .option {
+    font-size: 0.875rem; /* Adjust font size for smaller screens */
+  }
+
+  button {
+    width: 100%; /* Full-width button on small screens */
+  }
+  body {
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .option {
+    font-size: 0.75rem; /* Further adjust font size */
+    padding: 8px; /* Reduce padding */
+  }
+
+  .question {
+    font-size: 0.875rem; /* Further adjust font size */
+  }
+
+  body {
+    height: auto;
+  }
+
+  button {
+    font-size: 0.875rem; /* Adjust font size */
+    padding: 8px 16px; /* Adjust padding */
+  }
 }
