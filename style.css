@@ -40,6 +40,11 @@ body {
 #question-container {
   width: 100%;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+#question-container:last-child {
+  text-align: center;
 }
 
 /* Question Text */
@@ -61,6 +66,7 @@ body {
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  text-align: left;
 }
 
 .option input[type="checkbox"],
@@ -103,10 +109,10 @@ button:hover {
 }
 
 /* Result */
-#result {
-  margin-top: 20px;
+.result {
   font-size: 1.125rem; /* 18px */
-  text-align: center;
+  text-align: center !important;
+  padding: 20px;
 }
 
 /* Responsive Design */
