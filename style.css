@@ -43,10 +43,6 @@ body {
   text-align: center;
 }
 
-#question-container:last-child {
-  text-align: center;
-}
-
 /* Question Text */
 .question {
   font-size: 1.125rem; /* 18px */
