@@ -1948,7 +1948,7 @@ const quizData = [
       c: "Use Cloud Scheduler to schedule a batch Datafow job to copy the data from BigQuery to the BI team's internal data warehouse.",
       d: "Assign the IAM role of BigQuery User to a Google Group that contains the members of the BI team.",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
