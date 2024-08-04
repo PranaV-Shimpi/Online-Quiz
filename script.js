@@ -723,7 +723,7 @@ const quizData = [
       c: "Migrate the acquired company's projects into your company's GCP organization. Link the migrated projects to your company's billing account.",
       d: "Create a new GCP organization and a new billing account. Migrate the acquired company's projects and your company's projects into the new GCP organization and link the projects to the new billing account.",
     },
-    correct: ["d"],
+    correct: ["a"],
   },
   {
     question:
@@ -734,7 +734,7 @@ const quizData = [
       c: "Add the support team group to the roles/spanner.databaseReader role.",
       d: "Add the support team group to the roles/stackdriver.accounts.viewer role.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -756,7 +756,7 @@ const quizData = [
       c: "With Deployment Manager, create a Compute Engine instance with a startup script that uses kubectl to create the DaemonSet.",
       d: "In the cluster's defnition in Deployment Manager, add a metadata that has kube-system as key and the DaemonSet manifest as value.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -778,7 +778,7 @@ const quizData = [
       c: "Create a service account, and give it access to Cloud Storage. Create a P12 key for this service account and use it as an imagePullSecrets in Kubernetes.",
       d: "Confgure the ACLs on each image in Cloud Storage to give read-only access to the default Compute Engine service account.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -844,7 +844,7 @@ const quizData = [
       c: "Select Add GPUs. Fill in persistent disk storage and snapshot storage.",
       d: "Select Add GPUs. Add estimated cost for cluster management.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -888,7 +888,7 @@ const quizData = [
       c: "Create your own Kubernetes cluster on top of Compute Engine with nodes that have GPUs. Dedicate this cluster to your ML team.",
       d: "Add a new, GPU-enabled, node pool to the GKE cluster. Ask your ML team to add the cloud.google.com/gke -accelerator: nvidia-tesla-p100 nodeSelector to their pod specifcation.",
     },
-    correct: ["b"],
+    correct: ["d"],
   },
   {
     question:
@@ -899,7 +899,7 @@ const quizData = [
       c: "Create a new project. Use Shared VPC to share the current network with the new project.",
       d: "Create a new subnet with the same starting IP but a wider range to overwrite the current subnet.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -943,7 +943,7 @@ const quizData = [
       c: "Filter the Activity log to view the Data Access category. Filter the Resource type to Service Account.",
       d: "Filter the Activity log to view the Data Access category. Filter the Resource type to Google Project.",
     },
-    correct: ["d"],
+    correct: ["a"],
   },
   {
     question:
@@ -965,7 +965,7 @@ const quizData = [
       c: "Verify that you are the project administrator. Select the associated billing account and create a budget for the appropriate project.",
       d: "Verify that you are project administrator. Select the associated billing account and create a budget and a custom alert.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -976,7 +976,7 @@ const quizData = [
       c: "Create the VM using Compute Engine default settings. Use gcloud to modify the running instance to have 96 vCPUs.",
       d: "Start the VM using Compute Engine default settings, and adjust as you go based on Rightsizing Recommendations.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -1020,7 +1020,7 @@ const quizData = [
       c: "Write a script that loops through all the projects in your organization and runs a query on INFORMATION_SCHEMA.COLUMNS view to fnd the employee_ssn column.",
       d: "Write a Cloud Datafow job that loops through all the projects in your organization and runs a query on INFORMATION_SCHEMA.COLUMNS view to fnd employee_ssn column.",
     },
-    correct: ["d"],
+    correct: ["a"],
   },
   {
     question:
@@ -1042,7 +1042,7 @@ const quizData = [
       c: "Go to the Stackdriver Monitoring console and review information for Cloud Spanner.",
       d: "Go to the Stackdriver Logging console, review admin activity logs, and flter them for Cloud Spanner IAM roles.",
     },
-    correct: ["b"],
+    correct: ["d"],
   },
   {
     question:
@@ -1076,7 +1076,7 @@ const quizData = [
       c: "Change the primary key to not have monotonically increasing values.",
       d: "Create a secondary index using the following Data Defnition Language (DDL):",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
@@ -1098,7 +1098,7 @@ const quizData = [
       c: "Add your SREs to a group and then add this group to roles/iam.roleAdmin.role.",
       d: "Add your SREs to a group and then add this group to roles/accessapproval.approver role.",
     },
-    correct: ["b"],
+    correct: ["d"],
   },
   {
     question:
@@ -1120,7 +1120,7 @@ const quizData = [
       c: "Create a custom role by removing delete permissions, and add users to that role only.",
       d: "Create a custom role by removing delete permissions. Add users to the group, and then add the group to the custom role.",
     },
-    correct: ["b"],
+    correct: ["d"],
   },
   {
     question:
@@ -1153,7 +1153,7 @@ const quizData = [
       c: "Obtain OAuth 2.0 credentials, confgure the user consent screen, and set up OAuth 2.0 for Mobile & Desktop Apps.",
       d: "Obtain OAuth 2.0 credentials, confgure the user consent screen, and set up OAuth 2.0 for Web Server Applications.",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
@@ -1186,7 +1186,7 @@ const quizData = [
       c: "Create a node pool with preemptible VMs and GPUs attached to those VMs.",
       d: "Create a node pool of instances with GPUs, and enable autoscaling on this node pool with a minimum size of 1.",
     },
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -1241,7 +1241,7 @@ const quizData = [
       c: "Assign the auditor's IAM user to a custom role that has logging.privateLogEntries.list permission. Perform the export of logs to Cloud Storage.",
       d: "Assign the auditor's IAM user to a custom role that has logging.privateLogEntries.list permission. Direct the auditor to also review the logs for changes to Cloud IAM policy.",
     },
-    correct: ["c"],
+    correct: ["b"],
   },
   {
     question:
@@ -1265,7 +1265,7 @@ const quizData = [
       c: "1. Verify that you are assigned the Organizational Administrator IAM role for this project. 2. Locate the project in the GCP console, enter the project ID and then click Shut down.",
       d: "1. Verify that you are assigned the Organizational Administrators IAM role for this project. 2. Switch to the project in the GCP console, locate the resources and delete them.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -1276,7 +1276,7 @@ const quizData = [
       c: "Give project owner role to crm-databases-proj and bigquery.dataViewer role to web-applications.",
       d: "Give bigquery.dataViewer role to crm-databases-proj and appropriate roles to web-applications.",
     },
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -1287,7 +1287,7 @@ const quizData = [
       c: "View Data Access audit logs in Cloud Logging. Search for the user's email as the principal.",
       d: "View the Admin Activity log in Cloud Logging. Search for the service account associated with the user.",
     },
-    correct: ["b"],
+    correct: ["c"],
   },
   {
     question:
@@ -1298,7 +1298,7 @@ const quizData = [
       c: "Use permissions in your role that use the 'testing' support level for role permissions. Set the role stage to ALPHA while testing the role permissions.",
       d: "Use permissions in your role that use the 'testing' support level for role permissions. Set the role stage to BETA while testing the role permissions.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -1320,7 +1320,7 @@ const quizData = [
       c: "1. Use the default configuration for one project you need to manage. 2. Activate the appropriate configuration when you work with each of your assigned Google Cloud projects.",
       d: "1. Use the default configuration for one project you need to manage. 2. Use gcloud init to update the configuration values when you need to work with a non-default project.",
     },
-    correct: ["d"],
+    correct: ["a"],
   },
   {
     question:
@@ -1331,7 +1331,7 @@ const quizData = [
       c: "Verify that the instance template being used by the instance group contains valid syntax. Delete any persistent disks with the same name as instance names. Set the disks.autoDelete property to true in the instance template.",
       d: "Delete the current instance template and replace it with a new instance template. Verify that the instance name and persistent disk name values are not the same in the template. Set the disks.autoDelete property to true in the instance template.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -1342,7 +1342,7 @@ const quizData = [
       c: "1. Build a Cassandra Compute Engine instance and take a snapshot of it. 2. Use the snapshot to create instances for your developers.",
       d: "1. Build a Cassandra Compute Engine instance and take a snapshot of it. 2. Upload the snapshot to Cloud Storage and make it accessible to your developers. 3. Build instructions to create a Compute Engine instance from the snapshot so that developers can do it themselves.",
     },
-    correct: ["d"],
+    correct: ["b"],
   },
   {
     question:
@@ -1353,7 +1353,7 @@ const quizData = [
       c: "1. Create a Cloud Monitoring Workspace and associate your GCP project with it. 2. Write a script that monitors the CPU usage and sends it as a custom metric to Cloud Monitoring. 3. Create an uptime check for the instance in Cloud Monitoring.",
       d: "1. In Cloud Logging, create a logs-based metric to extract the CPU usage by using this regular expression: CPU Usage: ([0-9] {1,3})% 2. In Cloud Monitoring, create an Alerting Policy based on this metric. 3. Confgure your email address in the notifcation channel.",
     },
-    correct: ["d"],
+    correct: ["b"],
   },
   {
     question:
@@ -1375,7 +1375,7 @@ const quizData = [
       c: "Export the billing data to BigQuery. Create a Cloud Function that uses BigQuery to sum the egress network costs of the exported billing data for the Apache web server for the current month and sends an email if it is over 100 dollars. Schedule the Cloud Function using Cloud Scheduler to run hourly.",
       d: "Use the Cloud Logging Agent to export the Apache web server logs to Cloud Logging. Create a Cloud Function that uses BigQuery to parse the HTTP response log data in Cloud Logging for the current month and sends an email if the size of all HTTP responses, multiplied by current Google Cloud egress prices, totals over 100 dollars. Schedule the Cloud Function using Cloud Scheduler to run hourly.",
     },
-    correct: ["a"],
+    correct: ["c"],
   },
   {
     question:
@@ -1386,7 +1386,7 @@ const quizData = [
       c: "Provision the solution on Google Cloud. Leave the solution provisioned for 1 week. Navigate to the Billing Report page in the Cloud Console. Multiply the 1 week cost to determine the monthly costs.",
       d: "Provision the solution on Google Cloud. Leave the solution provisioned for 1 week. Use Cloud Monitoring to determine the provisioned and used resource amounts. Multiply the 1 week cost to determine the monthly costs.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -1441,7 +1441,7 @@ const quizData = [
       c: "Create a custom Compute Engine image from a snapshot. Create your images from that image.",
       d: "Create a custom Compute Engine image from a snapshot. Create your instances from that image.",
     },
-    correct: ["d"],
+    correct: ["b"],
   },
   {
     question:
@@ -1463,7 +1463,7 @@ const quizData = [
       c: "Create a Shared VPC network between both projects. Grant the VM Service Account the role Storage Object Creator on corp-iot-insights.",
       d: "Make corp-aggregate-reports-storage public and create a folder with a pseudo-randomized sufx name. Share the folder with the IoT team.",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
@@ -1485,7 +1485,7 @@ const quizData = [
       c: "Using the Cloud SDK, create the new instance, and use the --project fag to specify the new project. Answer yes when prompted by Cloud SDK to enable the Compute Engine API.",
       d: "Enable the Compute Engine API in the Cloud Console. Go to the Compute Engine section of the Console to create a new instance, and look for the Create In A New Project option in the creation form.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -1496,7 +1496,7 @@ const quizData = [
       c: "Migrate the workload to a Compute Engine VM. Start and stop the instance as needed.",
       d: "Create an Instance Template with Preemptible VMs On. Create a Managed Instance Group from the template and adjust Target CPU Utilization. Migrate the workload.",
     },
-    correct: ["b"],
+    correct: ["c"],
   },
   {
     question:
@@ -1507,7 +1507,7 @@ const quizData = [
       c: "Create a new Kubernetes Engine cluster. Create a deployment for the Jenkins image.",
       d: "Create an instance template with the Jenkins executable. Create a managed instance group with this template.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -1518,7 +1518,7 @@ const quizData = [
       c: "In the CLI installation directory, create a file called default.conf containing zone=europe west1 d.",
       d: " Create a Metadata entry on the Compute Engine page with key compute/zone and value europe west1 d.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -1540,7 +1540,7 @@ const quizData = [
       c: "Enable API and then use default dashboards to view all projects in sequence.",
       d: "Enable API, create a workspace under project A, and then add projects B and C.",
     },
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -1562,7 +1562,7 @@ const quizData = [
       c: "Create a deny-all egress frewall rule on the VPC network.",
       d: "Create a route on the VPC to route all trafc to the instance over the VPN tunnel.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -1606,7 +1606,7 @@ const quizData = [
       c: "Create a Cloud Dataproc cluster that runs a Spark job to extract data from Cloud Bigtable and Cloud Storage for specifc users.",
       d: "Create two separate BigQuery external tables on Cloud Storage and Cloud Bigtable. Use the BigQuery console to join these tables through user felds, and apply appropriate flters.",
     },
-    correct: ["b"],
+    correct: ["d"],
   },
   {
     question:
@@ -1628,7 +1628,7 @@ const quizData = [
       c: "Enable Audit Logs on the IAM & admin page for all resources, and validate the results.",
       d: "Use the command gcloud projects get iam policy to view the current role assignments.",
     },
-    correct: ["a"],
+    correct: ["d"],
   },
   {
     question:
@@ -1650,7 +1650,7 @@ const quizData = [
       c: "Run a test using a managed instance group. If the test is successful, use N1 Standard VMs in the managed instance group when running future jobs.",
       d: "Run a test using N1 standard VMs instead of N2. If the test is successful, use N1 Standard VMs when running future jobs.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -1661,7 +1661,7 @@ const quizData = [
       c: "Set up a high-priority (1000) rule that blocks all egress and a low-priority (65534) rule that allows only the appropriate ports.",
       d: "Set up a high-priority (1000) rule to allow the appropriate ports.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -1672,7 +1672,7 @@ const quizData = [
       c: "Set up Cloud VPN between your Google Cloud VPC and the internal network of the operations partner.",
       d: "Ask the operations partner to generate SSH key pairs, and add the public keys to the VM instances.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -1694,7 +1694,7 @@ const quizData = [
       c: "Set up a policy that uses Nearline storage for 30 days, then moves the Coldline for one year, and then moves to Archive storage for two years.",
       d: "Set up a policy that uses Standard storage for 30 days, then moves to Coldline for one year, and then moves to Archive storage for two years.",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
@@ -1727,7 +1727,7 @@ const quizData = [
       c: "Disable Automatic restart on the instance.",
       d: "Enable Preemptibility on the instance.",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
@@ -1738,7 +1738,7 @@ const quizData = [
       c: "Create a custom role that combines the required permissions. Grant the DevOps team the custom role on the production project.",
       d: "Create a custom role that combines the required permissions. Grant the DevOps team the custom role on the organization level.",
     },
-    correct: ["b"],
+    correct: ["c"],
   },
   {
     question:
@@ -1750,7 +1750,7 @@ const quizData = [
       d: "Build a Cloud function that triggers a timer of 45 days to delete objects that have expired.",
       e: "Develop a script that loops through all Cloud Storage buckets and deletes any buckets that are older than 45 days.",
     },
-    correct: ["a", "e"],
+    correct: ["a", "b"],
   },
   {
     question:
@@ -1783,7 +1783,7 @@ const quizData = [
       c: "Confgure the IP of the database as custom metadata for each instance, and query the metadata server.",
       d: "Query the Compute Engine internal DNS from the applications to retrieve the IP of the database.",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
@@ -1794,7 +1794,7 @@ const quizData = [
       c: "Deploy the container on App Engine fexible environment with autoscaling, and set the value min_instances to zero in the app.yaml.",
       d: "Deploy the container on App Engine fexible environment with manual scaling, and set the value instances to zero in the app.yaml.",
     },
-    correct: ["c"],
+    correct: ["b"],
   },
   {
     question:
@@ -1827,7 +1827,7 @@ const quizData = [
       c: "Create a new service with the new version of the application. Add an HTTP Load Balancer in front of both services.",
       d: "Create a new revision with the new version of the application. Add an HTTP Load Balancer in front of both revisions.",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
@@ -1838,7 +1838,7 @@ const quizData = [
       c: "Confgure an External HTTP(s) load balancer in front of the application servers.",
       d: "Confgure an External Network load balancer in front of the application servers.",
     },
-    correct: ["a"],
+    correct: ["d"],
   },
   {
     question:
@@ -1860,7 +1860,7 @@ const quizData = [
       c: "Assign the appropriate permissions, and then use Cloud Monitoring to review metrics.",
       d: "Use the export logs API to provide the Admin Activity Audit Logs in the format they want.",
     },
-    correct: ["d"],
+    correct: ["a"],
   },
   {
     question:
@@ -1882,7 +1882,7 @@ const quizData = [
       c: "Set up an on-demand backup for the frst of the month. Write the backup to an Archive class Cloud Storage bucket.",
       d: "Convert the automatic frst-of-the-month backup to an export fle. Write the export fle to a Coldline class Cloud Storage bucket.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -1904,7 +1904,7 @@ const quizData = [
       c: "Provision Compute Engine instances with local SSDs attached.",
       d: "Provision Compute Engine instances with M1 machine type.",
     },
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -1926,7 +1926,7 @@ const quizData = [
       c: "After starting the instances, use gcloud compute instances update to specify a Service Account for each instance.",
       d: "After starting the instances, use gcloud compute instances update to assign the name of the relevant Service Account as instance metadata.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -1937,7 +1937,7 @@ const quizData = [
       c: "Download a MongoDB installation package, and run it on Compute Engine instances.",
       d: "Download a MongoDB installation package, and run it on a Managed Instance Group.",
     },
-    correct: ["c"],
+    correct: ["b"],
   },
   {
     question:
@@ -1970,7 +1970,7 @@ const quizData = [
       c: "Create a new VPC network with subnetworks in all desired regions.",
       d: "Grant yourself the IAM role of Cloud Spanner Admin.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -1981,7 +1981,7 @@ const quizData = [
       c: "Enable the compute googleapis.com API.",
       d: "Grant yourself the IAM role of Computer Admin.",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
@@ -2003,7 +2003,7 @@ const quizData = [
       c: "Create a new service account and assign this service account to the new instance. Grant the service account permissions on Cloud Storage.",
       d: "Create a new service account and assign this service account to the new instance. Add metadata to the objects on Cloud Storage that matches the metadata on the new instance.",
     },
-    correct: ["a"],
+    correct: ["c"],
   },
   {
     question:
@@ -2014,7 +2014,7 @@ const quizData = [
       c: "Confgure dual-regional storage for the dual region closest to the users. Confgure a Nearline storage class.",
       d: "Confgure dual-regional storage for the dual region closest to the users. Confgure a Standard storage class.",
     },
-    correct: ["b"],
+    correct: ["d"],
   },
   {
     question:
@@ -2025,7 +2025,7 @@ const quizData = [
       c: "Deploy the application on Kubernetes Engine. For a new release, update the deployment to use the new version.",
       d: "Deploy the application on Kubernetes Engine. For a new release, create a new deployment for the new version. Update the service to use the new deployment.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -2080,7 +2080,7 @@ const quizData = [
       c: "Create another project with the ID acme-marketing-data-digest for the Marketing team and deploy the resources there.",
       d: "Create a new project named Marketing Data Digest and use the ID acme-data-digest. Grant the Project Editor role to the Marketing team.",
     },
-    correct: ["a"],
+    correct: ["c"],
   },
   {
     question:
@@ -2102,7 +2102,7 @@ const quizData = [
       c: "Upload the image to Container Registry and create a Kubernetes Service referencing the image.",
       d: "Upload the image to Container Registry and create a Kubernetes Deployment referencing the image.",
     },
-    correct: ["b"],
+    correct: ["d"],
   },
   {
     question:
@@ -2113,7 +2113,7 @@ const quizData = [
       c: "Use Cloud Debugger to fnd out why the data was not refreshed correctly.",
       d: "In Cloud Logging, create a flter for your Data Studio report.",
     },
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -2135,7 +2135,7 @@ const quizData = [
       c: "Use a custom mode VPC network, use Cloud Router border gateway protocol (BGP) routes, and use active/passive routing.",
       d: "Use an automatic mode VPC network, use Cloud Router border gateway protocol (BGP) routes, and confgure policy-based routing.",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
@@ -2168,7 +2168,7 @@ const quizData = [
       c: "Expose the application by using an SSL Proxy Load Balancer.",
       d: "Expose the application by using an internal TCP Network Load Balancer.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -2186,6 +2186,9 @@ const quizData = [
       "Question #200	Topic 1     You are building an application that stores relational data from users. Users across the globe will use this application. Your CTO is concerned about the scaling requirements because the size of the user base is unknown. You need to implement a database solution that can scale with your user growth with minimum configuration changes. Which storage solution should you use?   Firestore  Cloud Spanner  Bigtable",
     options: {
       a: "Cloud SQL",
+      b: "Firestore",
+      c: "Cloud Spanner",
+      d: "Bigtable",
     },
     correct: ["c"],
   },
@@ -2209,7 +2212,7 @@ const quizData = [
       c: "Enable Private Google Access on the subnet within the custom VPC.",
       d: "Deploy a Cloud NAT instance and route the trafc to the dedicated IP address of the Cloud Storage bucket.",
     },
-    correct: ["a"],
+    correct: ["c"],
   },
   {
     question:
@@ -2220,7 +2223,7 @@ const quizData = [
       c: "Create a Private Catalog for the Google Cloud Marketplace, and upload the resources of the startup's production project to the Catalog.",
       d: "Create an infrastructure-as-code template for all resources in the project by using Terraform, and deploy that template to a new project in your organization. Delete the project from the startup's Google Cloud organization.",
     },
-    correct: ["d"],
+    correct: ["a"],
   },
   {
     question:
@@ -2231,7 +2234,7 @@ const quizData = [
       c: "Create an Identity and Access Management (IAM) policy to restrict the resources locations in the US. Apply the policy to all dev projects.",
       d: "Create an Identity and Access Management (IAM) policy to restrict the resources locations in all dev projects. Apply the policy to all dev roles.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -2242,18 +2245,18 @@ const quizData = [
       c: "Create one A record to point mydomain.com to the load balancer, and create two CNAME records to point WWW and HOME to mydomain.com respectively.",
       d: "Create one A record to point mydomain.com to the load balancer, and create two NS records to point WWW and HOME to mydomain.com respectively.",
     },
-    correct: ["b"],
+    correct: ["c"],
   },
   {
     question:
       "Question #206	Topic 1    You have two subnets (subnet-a and subnet-b) in the default VPC. Your database servers are running in subnet-a. Your application servers and web servers are running in subnet-b. You want to confgure a frewall rule that only allows database trafc from the application servers to the database servers. What should you do?   Associate service account sa-app with the application servers and the service account sa-db with the database servers.  Create an ingress frewall rule to allow network trafc from source service account sa-app to target service account sa-db.   Add the app-server tag to the application servers and the db-server tag to the database servers.  Create an egress frewall rule to allow network trafc from source network tag app-server to target network tag db-server.   Associate the service account sa-app with the application servers and the network tag db-server with the database servers.  Create an ingress frewall rule to allow network trafc from source VPC IP addresses and target the subnet-a IP addresses.   Add the tag to the application servers and associate the service account with the database servers.  Create an egress frewall rule to allow network trafc from source network tag app-server to target service account sa-db.",
     options: {
-      a: "• Create service accounts sa-app and sa-db.",
-      b: "• Create network tags app-server and db-server.",
-      c: "• Create a service account sa-app and a network tag db-server.",
-      d: "• Create a network tag app-server and service account sa-db.",
+      a: " Create service accounts sa-app and sa-db.",
+      b: " Create network tags app-server and db-server.",
+      c: " Create a service account sa-app and a network tag db-server.",
+      d: " Create a network tag app-server and service account sa-db.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -2264,7 +2267,7 @@ const quizData = [
       c: "Search for the CMS solution in Google Cloud Marketplace. Use Terraform and the Cloud Marketplace ID to deploy the solution with the appropriate parameters.",
       d: "Use the installation guide of the CMS provider. Perform the installation through your configuration management system.",
     },
-    correct: ["c"],
+    correct: ["b"],
   },
   {
     question:
@@ -2297,7 +2300,7 @@ const quizData = [
       c: "Use a third party tool to provide remote access to the instances.",
       d: "Create a bastion host with public internet access. Create the SSH tunnel to the instance through the bastion host.",
     },
-    correct: ["d"],
+    correct: ["b"],
   },
   {
     question:
@@ -2341,16 +2344,16 @@ const quizData = [
       c: "Change the subnet IP range from 10.0.0.0/20 to 10.0.0.0/22.",
       d: "Convert the subnet IP range from IPv4 to IPv6.",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
       "Question #215	Topic 1    Your company requires all developers to have the same permissions, regardless of the Google Cloud project they are working on. Your company's security policy also restricts developer permissions to Compute Engine, Cloud Functions, and Cloud SQL. You want to implement the security policy with minimal effort. What should you do?  Copy the role across all projects created within the organization with the gcloud iam roles copy command.  Assign the role to developers in those projects.   • Assign the preDefined role of Compute Admin to the Google group at the Google Cloud organization level.   Assign preDefined roles for Compute Engine, Cloud Functions, and Cloud SQL permissions to the Google group for each project in the Google Cloud organization.   Create a custom role with Compute Engine, Cloud Functions, and Cloud SQL permissions at the Google Cloud organization level.  Assign the custom role to the Google group.",
     options: {
-      a: "• Create a custom role with Compute Engine, Cloud Functions, and Cloud SQL permissions in one project within the Google Cloud organization.",
-      b: "• Add all developers to a Google group in Google Groups for Workspace.",
-      c: "• Add all developers to a Google group in Cloud Identity.",
-      d: "• Add all developers to a Google group in Cloud Identity.",
+      a: "• Create a custom role with Compute Engine, Cloud Functions, and Cloud SQL permissions in one project within the Google Cloud organization. • Copy the role across all projects created within the organization with the gcloud iam roles copy command. • Assign the role to developers in those projects.",
+      b: " • Add all developers to a Google group in Google Groups for Workspace. • Assign the predefined role of Compute Admin to the Google group at the Google Cloud organization level.",
+      c: " • Add all developers to a Google group in Cloud Identity. • Assign predefined roles for Compute Engine, Cloud Functions, and Cloud SQL permissions to the Google group for each project in the Google Cloud organization.",
+      d: " • Add all developers to a Google group in Cloud Identity. • Create a custom role with Compute Engine, Cloud Functions, and Cloud SQL permissions at the Google Cloud organization level. • Assign the custom role to the Google group.",
     },
     correct: ["d"],
   },
@@ -2385,7 +2388,7 @@ const quizData = [
       c: "Migrate the workload to a Google Kubernetes Engine cluster with Spot nodes.",
       d: "Migrate the workload to a Compute Engine Spot VM.",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
@@ -2616,7 +2619,7 @@ const quizData = [
       c: "Implement an App Engine service which invokes the Cloud Monitoring API and sends a notifcation in case of anomalies.",
       d: "Use the Cloud Monitoring dashboard to observe latency and take the necessary actions when the response latency exceeds the specifed threshold.",
     },
-    correct: ["c"],
+    correct: ["b"],
   },
   {
     question:
