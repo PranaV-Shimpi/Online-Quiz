@@ -2407,7 +2407,7 @@ const quizData = [
       c: "Set an organizational policy constraint to limit identities by domain to automatically remove mismatched users.",
       d: "Set an organizational policy constraint to limit identities by domain, and then retroactively remove the existing mismatched users",
     },
-    correct: ["b"],
+    correct: ["d"],
   },
   {
     question:
