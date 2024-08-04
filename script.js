@@ -1948,7 +1948,7 @@ const quizData = [
       c: "Use Cloud Scheduler to schedule a batch Datafow job to copy the data from BigQuery to the BI team's internal data warehouse.",
       d: "Assign the IAM role of BigQuery User to a Google Group that contains the members of the BI team.",
     },
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -2418,7 +2418,7 @@ const quizData = [
       c: "Select the MIG from the Compute Engine console and, in the menu, select Replace VMs.",
       d: "Update and apply the instance template of the MIG.",
     },
-    correct: ["d"],
+    correct: ["b"],
   },
   {
     question:
@@ -2429,7 +2429,7 @@ const quizData = [
       c: "Use gcloud CLI to delete the topic.",
       d: "Use gcloud CLI to update the topic label managed-by-cnrm to false.",
     },
-    correct: ["d"],
+    correct: ["b"],
   },
   {
     question:
