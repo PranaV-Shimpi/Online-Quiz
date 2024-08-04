@@ -8,7 +8,7 @@ const quizData = [
       c: "Ask each member of the team to generate a new SSH key pair and to add the public key to their Google account. Grant the compute.osAdminLogin role to the Google group corresponding to this team.",
       d: "Generate a new SSH key pair. Give the private key to each member of your team. Configure the public key as a project-wide public SSH key in your Cloud Platform project and allow project-wide public SSH keys on each instance.",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
@@ -19,7 +19,7 @@ const quizData = [
       c: "172.16.0.0/12",
       d: "192.168.0.0/16",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
@@ -41,7 +41,7 @@ const quizData = [
       c: "Create a managed instance group. Set the Autohealing health check to healthy (HTTP)",
       d: "Create a managed instance group. Verify that the autoscaling setting is on.",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
@@ -107,7 +107,7 @@ const quizData = [
       c: "In the Google Cloud Platform Console, use the 'create role from role' functionality.",
       d: "In the Google Cloud Platform Console, use the 'create role' functionality and select all applicable permissions.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -118,7 +118,7 @@ const quizData = [
       c: "Managed Instance Group",
       d: "Unmanaged Instance Group",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -195,7 +195,7 @@ const quizData = [
       c: "Use gsutil rewrite and set the Delete action to 275 days (365-90).",
       d: "Use gsutil rewrite and set the Delete action to 365 days.",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
@@ -272,7 +272,7 @@ const quizData = [
       c: "Add the auditor user accounts to the 'logging.viewer' and 'bigQuery.dataViewer' preDefined IAM roles.",
       d: "Add the auditor user accounts to two new custom IAM roles.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -283,7 +283,7 @@ const quizData = [
       c: "Create a service account and add it to the IAM role 'storage.objectCreator' for that bucket.",
       d: "Create a service account and add it to the IAM role 'storage.objectAdmin' for that bucket.",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
@@ -349,7 +349,7 @@ const quizData = [
       c: "Confgure a single Stackdriver account, and link all projects to the same account.",
       d: "Confgure a single Stackdriver account for one of the projects. In Stackdriver, create a Group and add the other project names as criteria for that Group.",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
@@ -404,7 +404,7 @@ const quizData = [
       c: "Create a second App Engine application in the existing GCP project and specify asia-northeast1 as the region to serve your application.",
       d: "Create a new GCP project and create an App Engine application inside this new project. Specify asia-northeast1 as the region to serve your application.",
     },
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -415,7 +415,7 @@ const quizData = [
       c: "Run gcloud iam roles describe roles/spanner.viewer - -project my-project. Add the users to the role.",
       d: "Run gcloud iam roles describe roles/spanner.viewer - -project my-project. Add the users to a new group. Add the group to the role.",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
@@ -459,7 +459,7 @@ const quizData = [
       c: "Store the database password inside a ConfgMap object. Modify the YAML fle to populate the DB_PASSWORD environment variable from the ConfgMap.",
       d: "Store the database password in a fle inside a Kubernetes persistent volume, and use a persistent volume claim to mount the volume to the container.",
     },
-    correct: ["c"],
+    correct: ["b"],
   },
   {
     question:
@@ -492,7 +492,7 @@ const quizData = [
       c: "On the App Engine Versions page of the GCP Console, route 100% of the trafc to the previous version.",
       d: "Deploy the original version as a separate application. Then go to App Engine settings and split trafc between applications so that the original version serves 100% of the requests.",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
@@ -503,7 +503,7 @@ const quizData = [
       c: "Go to Deployment Manager and review settings for deployment of applications.",
       d: "Go to Cloud Shell and run gcloud confg list to review the Google Cloud configuration used for deployment.",
     },
-    correct: ["a"],
+    correct: ["d"],
   },
   {
     question:
@@ -514,7 +514,7 @@ const quizData = [
       c: "Create an instance group for the instances. Set the 'Autohealing' health check to healthy (HTTP).",
       d: "Create an instance group for the instance. Verify that the 'Advanced creation options' setting for 'do not retry machine creation' is set to off.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -558,7 +558,7 @@ const quizData = [
       c: "In the Instance Template, add the label 'health-check'.",
       d: "In the Instance Template, add a startup script that sends a heartbeat to the metadata server.",
     },
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
@@ -569,7 +569,7 @@ const quizData = [
       c: "1. Create a dedicated Google group in Cloud Identity. 2. Add each data scientist's user account to the group. 3. Assign the BigQuery jobUser role to the group.",
       d: "1. Create a dedicated Google group in Cloud Identity. 2. Add each data scientist's user account to the group. 3. Assign the BigQuery dataViewer user role to the group.",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
@@ -624,7 +624,7 @@ const quizData = [
       c: "Create a new managed instance group with an updated instance template. Add the group to the backend service for the load balancer.",
       d: "Create a new instance template with the new application version. Update the existing managed instance group with the new instance template. Delete the instances in the managed instance group to allow the managed instance group to recreate the instance using the new instance template.",
     },
-    correct: ["c"],
+    correct: ["b"],
   },
   {
     question:
@@ -646,7 +646,7 @@ const quizData = [
       c: "Assign the fnance team the Billing Account User role on the billing account and the Project Billing Manager role on the organization.",
       d: "Assign the engineering team the Billing Account User role on the billing account and the Project Billing Manager role on the organization.",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
@@ -657,7 +657,7 @@ const quizData = [
       c: "1. In GKE, create a Service of type LoadBalancer that uses the application's Pods as backend. 2. Add an annotation to this service: cloud.google.com/load-balancer-type: Internal 3. Peer the two VPCs together. 4. Confgure the Compute Engine instance to use the address of the load balancer that has been created.",
       d: "1. In GKE, create a Service of type LoadBalancer that uses the application's Pods as backend. 2. Add a Cloud Armor Security Policy to the load balancer that whitelists the internal IPs of the MIG's instances. 3. Confgure the Compute Engine instance to use the address of the load balancer that has been created.",
     },
-    correct: ["a"],
+    correct: ["c"],
   },
   {
     question:
@@ -668,7 +668,7 @@ const quizData = [
       c: "Write a custom script that uses logging API to copy the logs from Stackdriver logs to BigQuery.",
       d: "Export these logs to Cloud Pub/Sub and write a Cloud Datafow pipeline to store logs to Cloud SQL.",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
@@ -679,7 +679,7 @@ const quizData = [
       c: "Package it in a container image, and run it on Kubernetes Engine, using n1-standard-32 instances as nodes.",
       d: "Run it on Compute Engine, choose the instance type n1-standard-1, and add an SSD persistent disk of 32 GB.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -690,7 +690,7 @@ const quizData = [
       c: "1. Use Migrate for Compute Engine (formerly known as Velostrata) to migrate those servers to Compute Engine. 2. Create an internal load balancer (ILB) that uses storage.googleapis.com as backend. 3. Confgure your new instances to use this ILB as proxy.",
       d: "1. Using Cloud VPN or Interconnect, create a tunnel to a VPC in Google Cloud. 2. Use Cloud Router to create a custom route advertisement for 199.36.153.4/30. Announce that network to your on-premises network through the VPN tunnel. 3. In your on-premises network, confgure your DNS server to resolve *.googleapis.com as a CNAME to restricted.googleapis.com.",
     },
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -701,7 +701,7 @@ const quizData = [
       c: "1. Create a service account. 2. Give the Cloud Run Invoker role to that service account for your Cloud Run application. 3. Create a Cloud Pub/Sub subscription that uses that service account and uses your Cloud Run application as the push endpoint.",
       d: "1. Deploy your application on Cloud Run on GKE with the connectivity set to Internal. 2. Create a Cloud Pub/Sub subscription for that topic.",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
@@ -712,7 +712,7 @@ const quizData = [
       c: "Deploy the container on App Engine Flexible.",
       d: "Deploy the container on GKE with cluster autoscaling and horizontal pod autoscaling enabled.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
