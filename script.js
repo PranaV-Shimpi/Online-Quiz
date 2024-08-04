@@ -2693,7 +2693,7 @@ const quizData = [
       c: "Run the web application on a Cloud Storage bucket and the backend API on Cloud Run. Use Cloud Tasks to run your background job on Cloud Run.",
       d: "Run the web application on a Cloud Storage bucket and the backend API on Cloud Run. Use Cloud Tasks to run your background job on Compute Engine.",
     },
-    correct: ["d"],
+    correct: ["b"],
   },
 ];
 
