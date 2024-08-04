@@ -1247,9 +1247,7 @@ const quizData = [
     question:
       "Question #114	Topic 1    You are managing several Google Cloud Platform (GCP) projects and need access to all logs for the past 60 days. You want to be able to explore and quickly analyze the log contents. You want to follow Google-recommended practices to obtain the combined logs for all projects. What should you do?",
     options: {
-      a:
-        "Navigate to Stackdriver Logging and select resource.labels.project_id=" *
-        "",
+      a: "Navigate to Stackdriver Logging and select resource.labels.project_id=*",
       b: "Create a Stackdriver Logging Export with a Sink destination to a BigQuery dataset. Confgure the table expiration to 60 days.",
       c: "Create a Stackdriver Logging Export with a Sink destination to Cloud Storage. Create a lifecycle rule to delete objects after 60 days.",
       d: "Confgure a Cloud Scheduler job to read from Stackdriver and store the logs in BigQuery. Confgure the table expiration to 60 days.",
