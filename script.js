@@ -2396,7 +2396,7 @@ const quizData = [
       c: "Migrate from MySQL to Cloud Spanner, from Kafka to Memorystore, and from Cloud SQL for PostgreSQL to Cloud SQL.",
       d: "Migrate from MySQL to Cloud SQL, from Kafka to Memorystore, and from Cloud SQL for PostgreSQL to Cloud SQL.",
     },
-    correct: ["a"],
+    correct: ["b"],
   },
   {
     question:
