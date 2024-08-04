@@ -2451,7 +2451,7 @@ const quizData = [
       c: "Deploy your solution to an instance group, and increase the number of available instances whenever you see high CPU utilization in Cloud Monitoring.",
       d: "Deploy your solution to an instance group, and set the autoscaling based on CPU utilization.",
     },
-    correct: ["a"],
+    correct: ["d"],
   },
   {
     question:
@@ -2484,7 +2484,7 @@ const quizData = [
       c: "Review the Error Reporting page in the Google Cloud console to fnd any errors.",
       d: "Use the BigQuery interface to review the nightly job and look for any errors.",
     },
-    correct: ["a"],
+    correct: ["d"],
   },
   {
     question:
@@ -2495,7 +2495,7 @@ const quizData = [
       c: "Run a test using a managed instance group. If the test is successful, use N2 Standard VMs in the managed instance group when running future jobs.",
       d: "Run a test using N1 standard VMs instead of N2. If the test is successful, use N1 Standard VMs when running future jobs.",
     },
-    correct: ["d"],
+    correct: ["a"],
   },
   {
     question:
@@ -2550,7 +2550,7 @@ const quizData = [
       c: "Upload Docker images to the Cloud Storage, and deploy the application on Google Kubernetes Engine using Standard mode.",
       d: "Upload Docker images to Artifact Registry, and deploy the application on Cloud Run.",
     },
-    correct: ["b"],
+    correct: ["d"],
   },
   {
     question:
@@ -2561,7 +2561,7 @@ const quizData = [
       c: "Store the application data on a regional persistent disk. Create a snapshot schedule for the disk. If an outage occurs, create a new disk from the most recent snapshot and attach it to a new VM in another zone.",
       d: "Store the application data on a regional persistent disk. If an outage occurs, create an instance in another zone with this disk attached.",
     },
-    correct: ["a"],
+    correct: ["d"],
   },
   {
     question:
@@ -2572,7 +2572,7 @@ const quizData = [
       c: "Create a custom role at the folder level and grant all compute.instanceAdmin.* permissions to the role. Grant the custom role to the DevOps group.",
       d: "Grant the basic role roles/editor to the DevOps group.",
     },
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -2627,7 +2627,7 @@ const quizData = [
       c: "Upload the code to Cloud Functions. Use Cloud Scheduler to start the application.",
       d: "Lift and shift to a VM on Compute Engine. Use an instance schedule to start and stop the instance.",
     },
-    correct: ["a"],
+    correct: ["d"],
   },
   {
     question:
@@ -2638,7 +2638,7 @@ const quizData = [
       c: "kubectl confg set-context dev-cluster",
       d: "kubectl confg set-credentials dev-cluster",
     },
-    correct: ["d"],
+    correct: ["a"],
   },
   {
     question:
@@ -2649,7 +2649,7 @@ const quizData = [
       c: "Enforce an org policy constraint allowing the lifetime of service account keys to be 24 hours. Enforce an org policy constraint denying service account key creation with an exception on pj-sa.",
       d: "Enforce a DENY org policy constraint over the lifetime of service account keys for 24 hours. Disable attachment of service accounts to resources in all projects with an exception to pj-sa.",
     },
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
